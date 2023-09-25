@@ -1,0 +1,4 @@
+[submodule "rabbitmq-dotnet-client"]
+	path = rabbitmq-dotnet-client
+	url = git@github.com:rabbitmq/rabbitmq-dotnet-client.git
+	branch = 6.x
