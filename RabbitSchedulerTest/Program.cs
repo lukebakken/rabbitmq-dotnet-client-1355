@@ -57,10 +57,10 @@ public static class RabbitHelper
 
             var factory = new ConnectionFactory()
             {
-                Password = "password",
-                UserName = "tester",
+                Password = "guest",
+                UserName = "guest",
                 Port = 5672,
-                HostName = "localhost"
+                HostName = "dsch"
             };
 
             var connection = await Task.Run(() => factory.CreateConnection());
@@ -83,10 +83,10 @@ public static class RabbitHelper
 
             var factory = new ConnectionFactory()
             {
-                Password = "password",
-                UserName = "tester",
+                Password = "guest",
+                UserName = "guest",
                 Port = 5672,
-                HostName = "localhost"
+                HostName = "dsch"
             };
             var connection = factory.CreateConnection();
 
